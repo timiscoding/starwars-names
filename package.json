@@ -1,14 +1,15 @@
 {
   "name": "starwars-names-timiscoding",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get random Star wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timiscoding/starwars-names.git"
+    "url": "https://github.com/timiscoding/starwars-names-timiscoding.git"
   },
   "keywords": [
     "random",
@@ -18,10 +19,15 @@
   "author": "Timothy Tsui <timiscoding@gmail.com> (https://github.com/timiscoding)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timiscoding/starwars-names/issues"
+    "url": "https://github.com/timiscoding/starwars-names-timiscoding/issues"
   },
-  "homepage": "https://github.com/timiscoding/starwars-names#readme",
+  "homepage": "https://github.com/timiscoding/starwars-names-timiscoding#readme",
   "dependencies": {
     "unique-random-array": "1.0.1"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.0.5",
+    "semantic-release": "^15.1.5"
   }
 }
