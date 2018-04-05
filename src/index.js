@@ -8,7 +8,7 @@ var random = (number=1) => {
   } else if (number === 1) {
     return getRandomItem();
   } else {
-    return Array(number).map(getRandomItem);
+    return Array(number).fill().map(getRandomItem);
   }
 };
 

@@ -21,9 +21,9 @@ describe('starwars-names', () => {
 
     it('should return an array of random items', () => {
       const items = starWars.random(3);
-      items.forEach(item => {
-        expect(starWars.all).to.include(item);
-      });
+      for (let i=0; i<items.length; i++) {
+        expect(starWars.all).to.include(items[i]);
+      }
     });
 
     it('should return at maximum all the items if the number exceeds the items in the array', () => {
