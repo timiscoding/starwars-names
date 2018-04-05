@@ -1,14 +1,9 @@
 # starwars-names-timiscoding
 
 [![Travis](https://img.shields.io/travis/timiscoding/starwars-names-timiscoding.svg?style=flat-square)](https://travis-ci.org/timiscoding/starwars-names-timiscoding)
-
 [![Codecov](https://img.shields.io/codecov/c/github/timiscoding/starwars-names-timiscoding.svg?style=flat-square)
 ](https://codecov.io/gh/timiscoding/starwars-names-timiscoding)
-
-
 [![npm](https://img.shields.io/npm/v/starwars-names-timiscoding.svg?style=flat-square)](https://www.npmjs.com/package/starwars-names-timiscoding)
-
-
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 This is a toy npm module that shows star wars names. It was built for the purpose of learning how to:
