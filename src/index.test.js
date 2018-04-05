@@ -25,5 +25,20 @@ describe('starwars-names', () => {
         expect(starWars.all).to.include(item);
       });
     });
+
+    it('should return at maximum all the items if the number exceeds the items in the array', () => {
+      const items = starWars.random(200);
+      items.forEach(item => {
+        expect(starWars.all).to.include(item);
+      });
+      expect(items.length).to.equal(starWars.all.length);
+    });
+
+    it('should return undefined if negative number or zero is provided', () => {
+      const zeroItems = starWars.random(0);
+      const negItems = starWars.random(-1);
+      expect(zeroItems).to.be.undefined;
+      expect(negItems).to.be.undefined;
+    })
   });
 });

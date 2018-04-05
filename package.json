@@ -73,5 +73,12 @@
       "es2015",
       "stage-2"
     ]
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "lcov",
+      "text"
+    ]
   }
 }
