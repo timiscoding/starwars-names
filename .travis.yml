@@ -1,7 +1,4 @@
 language: node_js
-branches:
-  only:
-    - master
 cache:
   directories:
     - ~/.npm
@@ -17,5 +14,5 @@ after_success:
   - npm run travis-deploy-once "npm run report-coverage"
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - master
