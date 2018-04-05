@@ -18,5 +18,6 @@ This is a toy npm module that shows star wars names. It was built for the purpos
 * report code coverage using codecov.io
 * add ES6 support to mocha, nyc
 * limit branch builds in Travis
+* add UMD with webpack to make module browser consumable
 
 Code comes from the **How to Write an Open Source Javascript Library** [course](https://egghead.io/lessons/javascript-introduction-to-how-to-write-an-open-source-javascript-library) on Egghead
